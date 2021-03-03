@@ -1,0 +1,26 @@
+.container{
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+
+}
+.flex-buttons{
+    border:  1px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+.flex-buttons div{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.flex-result div{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+}
+
