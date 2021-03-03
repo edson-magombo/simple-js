@@ -31,3 +31,6 @@
     display: flex;
     border: 1px solid black;
 }
+.eddie{
+    image-rendering: auto;
+}
