@@ -1,10 +1,13 @@
 .container{
+    width: 75%;
     border: 1px solid black;
     text-align: center;
     padding: 20px;
+    margin: auto;
 
 }
 .flex-buttons{
+    padding: 10px;
     border:  1px solid black;
     display: flex;
     justify-content: space-around;
@@ -13,6 +16,7 @@
 
 }
 .flex-buttons div{
+    border: 1px SOLID black;
     display: flex;
     padding: 10px;
     align-items: center;
