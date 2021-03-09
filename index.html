@@ -10,21 +10,24 @@
 </head>
 <body>
     <div class="container">
-        <div>
+        <div class="login-container">
             <img class="eddie" src="eddie.jpg" />
+            <h3>Sign-in to use these services</h3>
+            <p>edsonmagombo920@gmail.com</p>
+            <Button class = "btn btn-primary" onclick= {www.google.com/sign} >Sign in with Google</Button>
         </div>
-    <h2>CONVERTER</h2>
-    <h2>converter your age in days or hours</h2>
+
+    <h2>converter your age in days</h2>
     <div class=" flex-buttons">
     <div>
-    <button class="btn btn-primary" onclick = "ageInDays()">convert</button>
+    <Button class="btn btn-primary" onclick = 'ageInDays()'>Convert</Button>
 </div>
 <div>
-      <button class="btn btn-danger">reset</button>
+      <Button class="btn btn-danger" onclick="reset()">reset</Button>
     </div>
 </div>
 <div class="flex-buttons">
-    <div id =" results"></div>
+    <div id = "results"></div>
     </div>
 </div>
 </body>
