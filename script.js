@@ -13,7 +13,7 @@ var textAnswer = document.createTextNode("You're " + days +" days old.");
 h1.setAttribute('id', 'ageInDays');
 h1.appendChild(textAnswer);
 document.getElementById('results').appendChild(h1);
- console.log(days);
+ 
 }
 function reset(){
     document.getElementById('results').remove();

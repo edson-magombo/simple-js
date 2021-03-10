@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    
+    <title>converter</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="index.css" />
     <script src ="script.js"></script>
@@ -18,6 +19,19 @@
             <a  href="main.html"  class = "btn btn-primary" >Sign in with Google</a>
             </button>
         </div>
+    <h2>converter your age in days</h2>
+    <div class=" flex-buttons">
+    <div>
+    <Button class="btn btn-primary" onclick = 'ageInDays()'>Convert</Button>
+</div>
+<div>
+      <Button class="btn btn-danger" onclick="reset()">reset</Button>
+    </div>
+</div>
+<div class="flex-buttons">
+    <div id = "results"></div>
+    </div>
+    </div>
 </div>
 </body>
 </html>

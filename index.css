@@ -1,4 +1,5 @@
 .container{
+    padding-top:40px ;
     width: 75%;
     border: 1px solid black;
     text-align: center;
@@ -41,12 +42,12 @@
     box-shadow: 0 1px 3px black;
     place-items:center;
 }
-.login-container > button{
+/* .login-container > button{
     
     margin-top: 50px;
     color: blanchedalmond;
     background-color: rgb(76, 44, 192);
-}
+} */
 .eddie{
     border-radius: 85%;
     object-fit: contain;
